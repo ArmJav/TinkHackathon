@@ -1,0 +1,21 @@
+
+.container { 
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+h2 {
+  text-align: center
+}
+
+.font {
+  font-family: Tinkoff Sans;
+  font-size: min(2vw,36px);
+}
+
+.app {
+  background-color: #F6F6F6;
+}
+

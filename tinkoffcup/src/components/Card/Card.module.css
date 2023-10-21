@@ -1,0 +1,39 @@
+.card {
+    width: 528px;
+    height: 20vw;  
+    background: #A5AFBE;
+    border-radius: 3vw;
+    margin: 3%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;    
+    cursor: pointer;
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+.h1 {
+    color: #fff;
+}
+
+.span {
+    padding-left: 10%;
+    padding-top: 8%;
+    padding-bottom: 12%;
+    align-items: center;
+    font-size: min(2vw,18px);
+    font-family: Tinkoff Sans;
+}
+
+.img { 
+    width: 50%;
+    height: 50%;
+}
+
+
+@font-face {
+    font-family: Tinkoff Sans;
+    src: url('/src/font/TinkoffSans-Regular.ttf');
+  }
+  
