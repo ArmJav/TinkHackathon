@@ -15,7 +15,6 @@ h2 {
   font-size: min(2vw,36px);
 }
 
-.app {
+body {
   background-color: #F6F6F6;
 }
-

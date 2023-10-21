@@ -24,11 +24,14 @@
     align-items: center;
     font-size: min(2vw,18px);
     font-family: Tinkoff Sans;
+    color: #FFFFFF;
 }
+
 
 .img { 
     width: 50%;
     height: 50%;
+    border-radius: 3vw;
 }
 
 

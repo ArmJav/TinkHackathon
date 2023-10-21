@@ -4,11 +4,14 @@ import styles from './Card.module.css'
 
 
 function Card(props) {
+    const handleClick = () => {
+        console.log("Hello");
+      };
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={handleClick}>
             <div className={styles.span}>
                 <h1 className={styles.h1}>{props.h1_text}</h1>
-                <span >{props.span}</span>
+                <p>{props.span}</p>
             </div>
             <img src={props.cartimg} alt='HJ' className={styles.img}/>
             

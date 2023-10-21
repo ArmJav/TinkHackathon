@@ -2,11 +2,16 @@ import Card from './components/Card'
 import styles from './styles/container.module.css'
 import cartimg from './img/T-8 1.png'
 import cartimg2 from './img/T-9 1.png'
+import logo from './img/Tinkoff 1.png'
+import Headers from './components/Headers'
+
 
 function App() {
   return (
     <div className={styles.app}>
-      <h1 className={styles.font}>Hello World</h1>
+      <Headers
+        path = {logo}
+      />
       <h2 className={styles.font}>Сервис турниров для игры в настольный футбол</h2>
       <div className={styles.container}>
         <Card
