@@ -1,0 +1,27 @@
+.card_2 {
+    width: 7vw;
+    height: 5vh;
+    background: #FFDD2D;
+    border-radius: 0.5vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.card:hover{
+    opacity: 0.8;
+}
+.h2 {
+    color: #000000;
+    font-size: 1.3vh;
+}
+
+
+.span {
+    font-size: min(2vw,18px);
+    font-family: Tinkoff Sans;
+    color: #FFFFFF;
+    text-align: center;
+}

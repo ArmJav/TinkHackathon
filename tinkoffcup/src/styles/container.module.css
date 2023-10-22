@@ -13,6 +13,7 @@ h2 {
 .font {
   font-family: Tinkoff Sans;
   font-size: min(2vw,36px);
+  padding-top: 10px;
 }
 
 body {

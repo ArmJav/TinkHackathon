@@ -17,22 +17,24 @@
   .modal-dialog {
     width: 100%;
     max-width: 550px;
+    font-family: Georgia;
     background: white;
-    position: relative;
     margin: 0 20px;
     max-height: calc(100vh - 40px);
-    text-align: left;
+    align-items: center;
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: slide-in;
     animation-duration: 0.5s;
   }
-  
+  .modal-title{
+    font-family: Tinkoff Sans;
+  }
   .modal-header,
   .modal-footer {
     display: flex;
@@ -42,12 +44,13 @@
   
   .modal-header {
     border-bottom: 1px solid #dbdbdb;
-    justify-content: space-between;
+    justify-content: center;
+     
   }
   
   .modal-footer {
     border-top: 1px solid #dbdbdb;
-    justify-content: flex-end;
+    justify-content: center;
   }
   
   .modal-close {
@@ -62,6 +65,7 @@
   
   .modal-content {
     padding: 1rem;
+    align-items: center;
   }
   
   @keyframes appear {
@@ -80,4 +84,8 @@
     to {
       transform: translateY(0);
     }
+  }
+  @font-face {
+    font-family: "Tinkoff Sans";
+    src: url('/src/font/TinkoffSans-Regular.ttf');
   }

@@ -5,7 +5,8 @@ import styles from './Card.module.css'
 
 function Card(props) {
     const handleClick = () => {
-        window.location.assign('http://localhost:3000/tourlist');
+        const url = 'http://localhost:3000/' + props.page
+        window.location.assign(url);
         console.log("Hello");
       };
     return (

@@ -20,11 +20,13 @@ function Main() {
             cartimg = {cartimg}
             h1_text = "Профиль"
             span = "Войдите или зарегистрируйтесь"
+            page = "profile"
           />
           <Card
             cartimg = {cartimg2}
             h1_text = "Турниры"
             span = "Посмотрите список актуальных турниров"
+            page = "tourlist"
           />
         </div>
 

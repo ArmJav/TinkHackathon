@@ -1,0 +1,97 @@
+
+.container { 
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+h2 {
+  text-align: center
+}
+
+.font {
+  font-family: Tinkoff Sans;
+  font-size: min(2vw,36px);
+}
+
+body {
+  background-color: #F6F6F6;
+  font-family: Tinkoff Sans;
+}
+
+.body {
+  display: flex;
+}
+
+.button {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5em 1em 0;
+}
+
+.body_right{
+  display: flex;
+  width: 50vw;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.body_left{
+  margin: 5em 0;
+  display: flex;
+  width: 50vw;
+  height: 60vh;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.h1_lk {
+  font-size: 2.5em;
+  width: 55%;
+  align-items: left;
+}
+
+.input_name {
+  font-size: 2em;
+  margin: 0.5em;
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input_ID {
+  font-size: 2em;
+  margin: 0.5em;
+  display: flex;
+  width: 33vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right_button1{
+  margin: 1em;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 0.1em;
+  width: 40vw;
+}
+
+
+
+@font-face {
+  font-family: Tinkoff Sans;
+  src: url('/src/font/TinkoffSans-Regular.ttf');
+}
+
